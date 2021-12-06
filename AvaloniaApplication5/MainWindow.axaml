@@ -1,0 +1,24 @@
+<Window
+    x:Class="AvaloniaApplication5.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:paz="using:Avalonia.Controls.PanAndZoom"
+    Title="AvaloniaApplication5"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal">
+        <Image
+            Width="100"
+            Height="100"
+            Source="/Assets/Phantasma.png" />
+        <Image
+            Width="14"
+            Height="14"
+            Margin="100,0,0,0"
+            Source="/Assets/Phantasma.png" />
+    </StackPanel>
+</Window>
